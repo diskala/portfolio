@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-import { Navigate } from 'react-router-dom';
 import Components from './Components/Components';
 import Homes from './Pages/Homes/Homes';
 import Competences from './Pages/Competences/Competences';
