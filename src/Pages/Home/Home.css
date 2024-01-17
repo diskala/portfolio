@@ -59,7 +59,6 @@ main{
 
 .image_font .nom{
     
-    /* color: #eea10c; */
     color:#F46F30;
     font-size: 30px;
 }
@@ -72,7 +71,7 @@ main{
 }
 
 .presentation p{
-    font-size: 30Px;
+    font-size: 25Px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -287,7 +286,7 @@ hr{
         display: block;
     }
     .presentation p{
-        font-size: 20Px;
+        font-size: 18Px;
         font-family: Arial, Helvetica, sans-serif;
     }
     .envloppe {
