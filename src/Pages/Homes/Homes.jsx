@@ -1,11 +1,11 @@
 import React from "react";
-import "./Home.css";
+import "./Homes.css";
 import Contact from "../Contact/Contact";
 import AutoTypeText from "../../AutoExecute/AutoTexte"; // ce  fichier contient la logique de l'Auto execution d'un texte en boucle
 import Portfolio from "../Portfolio/Portfolio";
 import Competences from "../Competences/Competences";
 
-export default function Home() {
+export default function Homes() {
   // function afin de pouvoir ouvrir le fichier mon CV
   const ouvrirPDF = () => {
     window.open("/Media/CV-Nacime 3.pdf", "_blank");
