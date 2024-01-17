@@ -2,7 +2,7 @@
   "name": "monportfolio",
   "version": "0.1.0",
   "private": true,
-  "home...": "https://diskala.github.io/",
+  "homepage": "https://diskala.github.io/",
   "dependencies": {
     "@babel/plugin-transform-class-properties": "^7.23.3",
     "@babel/plugin-transform-nullish-coalescing-operator": "^7.23.4",
