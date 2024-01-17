@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import {BrowserRouter, Routes, Route } from 'react-router-dom';
 import Components from './Components/Components';
 import Homes from './Pages/Homes/Homes';
 import Competences from './Pages/Competences/Competences';
@@ -11,6 +11,7 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
       <Components />
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<Homes />} />
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      </BrowserRouter>
     </div>
   );
 }
