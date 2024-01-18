@@ -120,7 +120,7 @@ const Competences = () => {
             ))}
         </div>
       </div>
-
+ 
       <div className="container_autre">
         <div className="autre_competences">
           <h2>Autres Compétences</h2>

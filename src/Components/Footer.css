@@ -81,6 +81,9 @@
         background-color: black;
         height: auto;
         display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
         flex-direction: column;
     
          
@@ -90,6 +93,7 @@
     }
     .mot_footer, .reseaux_sociaux, .informations{
         width: 60%;
+        margin-left: 0;
     }
     .informations{
         display: flex;
@@ -107,7 +111,11 @@
         background-color: black;
         height: auto;
         display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
         flex-direction: column;
+        margin-left: 0;
     
          
       

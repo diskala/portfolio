@@ -127,7 +127,7 @@ span{
      
 }
 
-@media screen and (min-width: 500px) and (max-width:1200px) {
+@media screen and (min-width: 578px) and (max-width:1200px) {
 
 
   .container_competences h1{
@@ -193,4 +193,76 @@ span{
   -o-border-radius: 30px;
   overflow: hidden;
 }
+}
+
+@media screen and (max-width: 578px) {
+  .container_competences h1{
+    color: #F46F30;
+    font-size: 20px;
+    
+}
+  .competences{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   width: 80%;
+    height: auto;
+     
+}
+
+.competences h2{
+  font-size: 10px;
+  margin-left: 0;
+   
+}
+  .container_autre{
+   
+    width: 80%;
+    height: auto;
+    margin-left: 15%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 4rem;
+    margin-top: 5rem;
+    gap: 5rem;
+   
+}
+  .autre_competences li h4, .hobbies li h4{
+    display: flex;
+     
+     
+   
+    margin-left: 0;
+    font-size: 8px;
+    color: black;
+   
+    
+}
+
+
+.container_autre h2{
+  font-size: 15px;
+  margin-top: 0;
+  font-weight: bold;
+  background-color: rgb(189, 189, 189);
+  color:#F46F30;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.autre_competences, .hobbies{
+  width: 50%;
+  background-color: rgb(242, 240, 240);
+ height: auto;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  overflow: hidden;
+}
+  
 }

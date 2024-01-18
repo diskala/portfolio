@@ -12,7 +12,7 @@ export default function Components() {
   };
 
   // const linkedinUrl = 'https://www.linkedin.com/in/seghir-ouali-nacime/';
-
+  //  function pour ouvrir le lien Linkedin
   const lienLindekin = () => {
     window.open("https://www.linkedin.com/in/seghir-ouali-nacime/", "_blank");
   };

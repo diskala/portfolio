@@ -7,9 +7,12 @@ import Competences from "../Competences/Competences";
 
 export default function Homes() {
   // function afin de pouvoir ouvrir le fichier mon CV
+
   const ouvrirPDF = () => {
-    window.open("/Media/CV-Nacime 3.pdf", "_blank");
+    const pdfUrl = `${process.env.PUBLIC_URL}/Media/CV-Nacime3.pdf`;
+    window.open(pdfUrl, "_blank");
   };
+
 
   //  function pour pouvoir scroller directement sur l'article choisi
   const scroll = () => {
@@ -46,6 +49,7 @@ export default function Homes() {
               className="photo"
               src={process.env.PUBLIC_URL + "/Media/photo_3.jpg"}
               alt=""
+              
             />
           </div>
         </div>
@@ -78,7 +82,7 @@ export default function Homes() {
 
         <div class="envloppe">
           {/* <i class="fa-solid fa-envelope"></i> */}
-          <span>Mon CV</span>
+          <span  onClick={ouvrirPDF}>Mon CV</span>
           <img
             src={process.env.PUBLIC_URL + "/Media/icon-cv3.png"}
             alt=""
