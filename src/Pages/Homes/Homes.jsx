@@ -9,7 +9,7 @@ export default function Homes() {
   // function afin de pouvoir ouvrir le fichier mon CV
 
   const ouvrirPDF = () => {
-    const pdfUrl = `${process.env.PUBLIC_URL}/Media/CV-Nacime3.pdf`;
+    const pdfUrl = `${process.env.PUBLIC_URL}/Media/CV-Nacime-2024 (1).pdf.pdf`;
     window.open(pdfUrl, "_blank");
   };
 

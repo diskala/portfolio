@@ -6,28 +6,28 @@ const competencesData = [
         name: "JavaScript",
         type: "Language de Programmation",
         image: "/Media/logoLanguages/js-logo-5.jpg",
-        niveau: 70,
+        niveau: 85,
       },
       {
         id: 2,
         name: "HTML",
         type: "Language de Balisage",
         image: "/Media/logoLanguages/html5-mini-logo.jpg",
-        niveau: 85,
+        niveau: 90,
       },
       {
         id: 3,
         name: "CSS",
         type: "Language de Programmation",
         image: "/Media/logoLanguages/css-logo1.png",
-        niveau: 75,
+        niveau: 85,
       },
       {
         id: 4,
         name: "PHP",
         type: "Language de Programation",
         image: "/Media/logoLanguages/PHP-logo1.png",
-        niveau: 70,
+        niveau: 80,
       },
 
       {
@@ -35,7 +35,7 @@ const competencesData = [
         name: "SQL",
         type: "Language de Programmation",
         image: "/Media/logoLanguages/sql2.png",
-        niveau: 55,
+        niveau: 85,
       },
     ],
 
@@ -45,7 +45,7 @@ const competencesData = [
         name: "MYSQL",
         type: "Gestion Base de données",
         image: "/Media/logoLanguages/mysql2.png",
-        niveau: 80,
+        niveau: 90,
       },
 
       {
@@ -53,14 +53,14 @@ const competencesData = [
         name: "MongoDB",
         type: "Gestion Base de données",
         image: "/Media/logoLanguages/mongodb2.png",
-        niveau: 55,
+        niveau: 75,
       },
       {
         id: 3,
         name: "PostgreSQL",
         type: "Gestion Base de données",
         image: "/Media/logoLanguages/postgres2.png",
-        niveau: 50,
+        niveau: 80,
       },
     ],
 
@@ -69,7 +69,7 @@ const competencesData = [
         name: "SYMFONY 6",
         type: "Framework",
         image: "/Media/logoLanguages/symfony_black_03.png",
-        niveau: 85,
+        niveau: 90,
       },
       {
         name: "REACT",
@@ -87,7 +87,7 @@ const competencesData = [
         name: "WORDPRESS",
         type: "CMS",
         image: "/Media/logoLanguages/WordPress_logo3.png",
-        niveau: 55,
+        niveau: 65,
       },
     ],
 
@@ -95,17 +95,17 @@ const competencesData = [
       {
         name: "After Affect",
         image: "/Media/logoLanguages/after-affect1.png",
-        niveau: 55,
+        niveau: 65,
       },
       {
         name: "Adobe Premier Pro",
         image: "/Media/logoLanguages/premier-pro1.png",
-        niveau: 55,
+        niveau: 75,
       },
       {
         name: "Adobe XD",
         image: "/Media/logoLanguages/adobeXD1.png",
-        niveau: 50,
+        niveau: 60,
       },
     ],
 
