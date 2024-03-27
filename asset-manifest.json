@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/monportfolio/static/css/main.5e89ea87.css",
-    "main.js": "/monportfolio/static/js/main.01c7f54b.js",
-    "index.html": "/monportfolio/index.html",
-    "main.5e89ea87.css.map": "/monportfolio/static/css/main.5e89ea87.css.map",
-    "main.01c7f54b.js.map": "/monportfolio/static/js/main.01c7f54b.js.map"
+    "main.css": "/diskala/portfolio.git/static/css/main.5e89ea87.css",
+    "main.js": "/diskala/portfolio.git/static/js/main.7ab7279a.js",
+    "index.html": "/diskala/portfolio.git/index.html",
+    "main.5e89ea87.css.map": "/diskala/portfolio.git/static/css/main.5e89ea87.css.map",
+    "main.7ab7279a.js.map": "/diskala/portfolio.git/static/js/main.7ab7279a.js.map"
   },
   "entrypoints": [
     "static/css/main.5e89ea87.css",
-    "static/js/main.01c7f54b.js"
+    "static/js/main.7ab7279a.js"
   ]
 }
