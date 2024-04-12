@@ -34,7 +34,7 @@ const Competences = () => {
                   >
                     <span>{language.name}</span>
                   </div>
-                  <span>{language.niveau} %</span>
+                  <span className="pourcentage">{language.niveau}%</span>
                 </div>
               </div>
             ))}
@@ -61,7 +61,7 @@ const Competences = () => {
                   >
                     <span>{techno.name}</span>
                   </div>
-                  <span>{techno.niveau} %</span>
+                  <span className="pourcentage">{techno.niveau}%</span>
                 </div>
               </div>
             ))}
@@ -88,7 +88,7 @@ const Competences = () => {
                   >
                     <span>{graphicDesign.name}</span>
                   </div>
-                  <span>{graphicDesign.niveau} %</span>
+                  <span className="pourcentage">{graphicDesign.niveau}%</span>
                 </div>
               </div>
             ))}
@@ -114,7 +114,7 @@ const Competences = () => {
                   >
                     <span>{data.name}</span>
                   </div>
-                  <span>{data.niveau} %</span>
+                  <span className="pourcentage">{data.niveau}%</span>
                 </div>
               </div>
             ))}

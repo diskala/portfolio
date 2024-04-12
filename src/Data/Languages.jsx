@@ -68,7 +68,7 @@ const competencesData = [
       {
         name: "SYMFONY 6",
         type: "Framework",
-        image: "/Media/logoLanguages/symfony_black_03.png",
+        image:"/Media/logoLanguages/symfony_black_03.png",
         niveau: 90,
       },
       {

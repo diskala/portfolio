@@ -1,268 +1,302 @@
 ﻿
 .container_competences h1{
-    color: #F46F30;
-    font-size: 40px;
-    
+  color: #F46F30;
+  font-size: 40px;
+  
 }
 
 
 .competences{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-   width: 80%;
-    height: auto;
-    margin-left: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+ width: 80%;
+  height: auto;
+  margin-left: 10%;
 }
 
 .competences h2{
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(70, 70, 68);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(70, 70, 68);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
- 
+
 .languages, .technologies, .conception, .base_donnees {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #F3F3F5;
-    
-    
-  }
-  .niveau_lang{
-    display: flex;
-    width: 100%;
-    height: 5vh;
-     
-    margin-top: 1rem;   
-  }
-
-  .language-name {
-     
-    font-weight: bold;
-    margin-bottom: 5px;
-    width:10%;
-    height: 80%;
-    margin-left: 10%;
-  }
-  .language-name img{
-    width: 50%;
-    height: 80%;
-    
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #F3F3F5;
+  
+  
+}
+.niveau_lang{
+  display: flex;
+  width: 100%;
+  height: 5vh;
    
-     
+  margin-top: 1rem;   
 }
 
+.language-name {
+   
+  font-weight: bold;
+  margin-bottom: 5px;
+  width:10%;
+  height: 80%;
+  margin-left: 10%;
+}
+.language-name img{
+  width: 50%;
+  height: 80%;
   
-  .progress-bar {
-    background-color: #e1dfdf;
-    height: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 5px;
-    overflow: hidden;
-    
-  }
-  
-
  
-  .progress {
-    background-color: #21d0eb;
-    display: flex;
-    justify-content: left;
-    height: 100%;
-    width: 0;
-    
+   
 }
 
+
+.progress-bar {
+  background-color: #e1dfdf;
+  height: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  overflow: hidden;
+  
+}
+
+
+
+.progress {
+  background-color: #21d0eb;
+  display: flex;
+  justify-content: left;
+  height: 100%;
+  width: 0;
+  
+}
+.container_competences .pourcentage{
+  font-size: 15px;
+}
 span{
-    font-weight: bold;
-    color: #F46F30;
+  font-weight: bold;
+  color: #F46F30;
 }
 
 .container_autre{
-   
-    width: 70%;
-    height: 40vh;
-    margin-left: 15%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5rem;
-    gap: 5rem;
-   
+ 
+  width: 70%;
+  height: 40vh;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  gap: 5rem;
+ 
 }
 
 .autre_competences, .hobbies{
-    width: 50%;
-    background-color: rgb(242, 240, 240);
-   
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-    overflow: hidden;
+  width: 50%;
+  background-color: rgb(242, 240, 240);
+ 
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  overflow: hidden;
 }
 
 .container_autre h2{
-    font-size: 25px;
-    margin-top: 0;
-    font-weight: bold;
-    background-color: rgb(189, 189, 189);
-    color:#F46F30;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-size: 25px;
+  margin-top: 0;
+  font-weight: bold;
+  background-color: rgb(189, 189, 189);
+  color:#F46F30;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .autre_competences li, .hobbies li{
-     list-style: none;
+   list-style: none;
 }
 
 .autre_competences li h4, .hobbies li h4{
-     display: flex;
-     font-size: 25px;
-     color: black;
-     
+   display: flex;
+   font-size: 25px;
+   color: black;
+   
 }
 
 @media screen and (min-width: 578px) and (max-width:1200px) {
 
 
-  .container_competences h1{
-    color: #F46F30;
-    font-size: 35px;
-    
+.container_competences h1{
+  color: #F46F30;
+  font-size: 35px;
+  
 }
-  .competences{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-   width: 80%;
-    height: auto;
-    margin-left: 10%;
+.competences{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+ width: 80%;
+  height: auto;
+  margin-left: 10%;
 }
 
 .competences h2{
-  font-size: 15px;
-   
+font-size: 15px;
+ 
 }
-  .container_autre{
-   
-    width: 70%;
-    height: auto;
-    margin-left: 15%;
-   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    padding-top: 4rem;
-    margin-top: 5rem;
-    gap: 5rem;
-   
+.container_autre{
+ 
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding-top: 4rem;
+  margin-top: 5rem;
+  gap: 5rem;
+ 
 }
-  .autre_competences li h4, .hobbies li h4{
-    display: flex;
-    font-size: 10px;
-    color: black;
-   
-    
+.autre_competences li h4, .hobbies li h4{
+  display: flex;
+  font-size: 10px;
+  color: black;
+ 
+  
 }
 
 
 .container_autre h2{
-  font-size: 15px;
-  margin-top: 0;
-  font-weight: bold;
-  background-color: rgb(189, 189, 189);
-  color:#F46F30;
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+font-size: 15px;
+margin-top: 0;
+font-weight: bold;
+background-color: rgb(189, 189, 189);
+color:#F46F30;
+height: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .autre_competences, .hobbies{
-  width: 50%;
-  background-color: rgb(242, 240, 240);
- height: auto;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  overflow: hidden;
+width: 50%;
+background-color: rgb(242, 240, 240);
+height: auto;
+border-radius: 30px;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+-ms-border-radius: 30px;
+-o-border-radius: 30px;
+overflow: hidden;
+}
+
+.language-name {
+   
+  font-weight: bold;
+  margin-bottom: 5px;
+  width:8%;
+  height: 70%;
+  margin-left: 10%;
+}
+.language-name img{
+  width: 40%;
+  height: 70%;
+  
+ 
+   
 }
 }
 
 @media screen and (max-width: 578px) {
-  .container_competences h1{
-    color: #F46F30;
-    font-size: 20px;
-    
+.container_competences h1{
+  color: #F46F30;
+  font-size: 20px;
+  
 }
-  .competences{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-   width: 80%;
-    height: auto;
-     
+.competences{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+ width: 80%;
+  height: auto;
+   
 }
 
 .competences h2{
-  font-size: 10px;
+font-size: 10px;
+margin-left: 0;
+ 
+}
+.container_autre{
+ 
+  width: 80%;
+  height: auto;
+  margin-left: 15%;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding-top: 4rem;
+  margin-top: 5rem;
+  gap: 5rem;
+ 
+}
+.autre_competences li h4, .hobbies li h4{
+  display: flex;
+   
   margin-left: 0;
-   
-}
-  .container_autre{
-   
-    width: 80%;
-    height: auto;
-    margin-left: 15%;
-   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    padding-top: 4rem;
-    margin-top: 5rem;
-    gap: 5rem;
-   
-}
-  .autre_competences li h4, .hobbies li h4{
-    display: flex;
-     
-     
-   
-    margin-left: 0;
-    font-size: 8px;
-    color: black;
-   
-    
+  font-size: 8px;
+  color: black;
+ 
+  
 }
 
 
 .container_autre h2{
-  font-size: 15px;
-  margin-top: 0;
-  font-weight: bold;
-  background-color: rgb(189, 189, 189);
-  color:#F46F30;
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+font-size: 12px;
+margin-top: 0;
+font-weight: bold;
+background-color: rgb(189, 189, 189);
+color:#F46F30;
+height: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .autre_competences, .hobbies{
-  width: 50%;
-  background-color: rgb(242, 240, 240);
- height: auto;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  overflow: hidden;
+width: 50%;
+background-color: rgb(242, 240, 240);
+height: auto;
+border-radius: 30px;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+-ms-border-radius: 30px;
+-o-border-radius: 30px;
+overflow: hidden;
 }
+
+.language-name {
+   
+  font-weight: bold;
+  margin-bottom: 5px;
+  width:4rem;
+  height: 2rem;
+  margin-left: 10%;
+}
+.language-name img{
+  width: 30%;
+  height: 60%;
   
+ 
+   
+}
+.container_competences .pourcentage{
+  font-size: 10px;
+}
 }
