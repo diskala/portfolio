@@ -138,7 +138,7 @@ export default function Contact() {
             <p className="cord">
               <i class="fa-solid fa-envelope"></i> E-MAIL
             </p>
-            <p className="cord"> seghir.nacime@yahoo.fr </p>
+            <p className="cord"> seghir.nacime@protonmail.com.fr </p>
             <hr class="hr2"></hr>
             <p className="cord">
               <i class="fa-regular fa-clock"></i> HORAIRES
