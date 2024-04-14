@@ -181,6 +181,7 @@
 
 
     header .fa-bars{
+        cursor: pointer;
         position: absolute;
         color: aliceblue;
         font-size: 40px;
@@ -227,6 +228,7 @@
     }
 
     header .fa-bars{
+        cursor: pointer;
        visibility: visible;
         display: flex;
         justify-content: center;

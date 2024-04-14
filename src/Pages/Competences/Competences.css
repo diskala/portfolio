@@ -79,7 +79,10 @@ span{
     font-weight: bold;
     color: #F46F30;
 }
+.competences .pourcent{
+  font-size: 13px;
 
+}
 .container_autre{
    
     width: 70%;
