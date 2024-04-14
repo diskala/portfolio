@@ -42,9 +42,9 @@ export default function Contact() {
       const erreur = "Veuillez entrer une adresse Email Valide!";
       setErrors(erreur);
     } else {
-      alert(
-        "Nom: " + firstName + "\n " + lastName + "\n " + email + "\n " + message
-      );
+      // alert(
+      //   "Nom: " + firstName + "\n " + lastName + "\n " + email + "\n " + message
+      // );
       const msg = "Merci, votre message a bien été envoyé";
 
       setStatus(msg);
@@ -59,7 +59,7 @@ export default function Contact() {
       <h1> CONTACTEZ - MOI</h1>
 
       <h2 class="erreurs">{errors}</h2>
-      <h2 class="statuse">{status}</h2>
+      <h2 class="statuse"> {status}</h2>
 
       <div className="formulaire_contact">
         <form action="" method="post" onSubmit={handlSubmit}>
