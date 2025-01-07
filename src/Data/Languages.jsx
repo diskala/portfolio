@@ -134,7 +134,7 @@ const competencesData = [
     hobbies: [
       {
         id: 1,
-        name: "Guitare",
+        name: "Randonnée",
         type: "Musique",
       },
 
