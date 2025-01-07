@@ -140,7 +140,7 @@ const competencesData = [
 
       {
         id: 2,
-        name: "Full Contact",
+        name: "Randonnée",
         type: "Sport",
       },
       {
