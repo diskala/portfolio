@@ -35,6 +35,58 @@ const projetsData = [
   },
   {
     id: 2,
+    name: "Eco-Partage",
+    title: "Plateforme de Mise en Relation de Services",
+    technologie: " Symfony, ReactJS, API Platform et Docker",
+    langage: [
+      {
+        langId: 1,
+        name: "PHP",
+      },
+      {
+        langId: 2,
+        name: "JavaScript",
+      },
+      {
+        langId: 2,
+        name: "HTML",
+      },
+      {
+        langId: 3,
+        name: "CSS",
+      },
+    ],
+    image_1: "/Media/projets/eco-partage/Eco partage2025-09-03 220206.png",
+    lien: "https://github.com/diskala/eco-partage.git",
+    description:
+      " Application web vise à mettre en relation des utilisateurs et des professionnels pour la réalisation de prestations de service: jardinage, bricolage, déménagement, ménage, informatique, soutien scolaire, beauté à domicile, cours de sport, etc.",
+  },
+  {
+    id: 3,
+    name: "QuoiDeBon",
+    title: "Application Réseau social gastronomique",
+    technologie: "NodeJs, Express et ReactJS",
+    langage: [
+      {
+        langId: 1,
+        name: "JavaScript",
+      },
+      {
+        langId: 2,
+        name: "HTML",
+      },
+      {
+        langId: 3,
+        name: "CSS",
+      },
+    ],
+
+    image_1: "/Media/projets/quoidebon/QuoiDeBon 2025-09-03 215654.png",
+    lien: "https://github.com/diskala/QuoiDeBon.git",
+    description: " C'est une application de recettes de cuisine géolocalisée,  ",
+  },
+  {
+    id: 4,
     name: "event",
     technologie: " Framework SYMFONY 6",
     langage: [
@@ -71,7 +123,7 @@ const projetsData = [
       "Location salles de réunion et séminaire unique, a proximité de votre entreprise avec Des équipements et services fiables, Des milliers d'entreprises font confiance à nous pourquoi pas vous...",
   },
   {
-    id: 3,
+    id: 5,
     name: "country",
     title: "Recherche Les Pays Par Mot Clés",
     technologie: "ReactJS et NodeJs",
@@ -95,7 +147,7 @@ const projetsData = [
       "Application de recherche des pays du monde entier par mot clés ",
   },
   {
-    id: 4,
+    id: 6,
     name: "biblioapp",
     title: "Application Pour La Gestion d'une Bibliothèque",
     technologie: " Framework SYMFONY 6",
@@ -128,33 +180,8 @@ const projetsData = [
     description:
       " C'est une application de gestion une bibliothèque, va vous permet de répertorier vos livres par (Titre, auteur et nemuro de livre) et de pouvoir effectuer une recherche rapide...",
   },
-
   {
-    id: 5,
-    name: "pockemons",
-    title: "Rendu d'un API de Pockemons",
-    technologie: "ReactJS et NodeJs",
-    langage: [
-      {
-        langId: 1,
-        name: "JavaScript",
-      },
-      {
-        langId: 2,
-        name: "HTML",
-      },
-      {
-        langId: 3,
-        name: "CSS",
-      },
-    ],
-    image_1: "/Media/projets/pockemons/projet-pockemons-1.png",
-    lien: "https://github.com/diskala/correction-pokemon.git",
-    description:
-      "Exploitation d'un API pour pouvoir afficher tous les Pockemons",
-  },
-  {
-    id: 6,
+    id: 7,
     name: "codexpress",
     title: "Messagerie Instantanée",
     technologie: "Framework Symfony 6",
@@ -186,7 +213,7 @@ const projetsData = [
     description: "CodeXpress c'est une application de messagerie instantanée.",
   },
   {
-    id: 7,
+    id: 8,
     name: "casa",
     title: "Site de Location d'Appartement",
     technologie: "ReactJS et NodeJs",
@@ -211,7 +238,7 @@ const projetsData = [
       "Casa c'est un site de Location d'appartements dans toute la France.",
   },
   {
-    id: 8,
+    id: 9,
     name: "designer",
     title: "Site Vitrine d'Agence de designe Interieur",
     technologie: "ReactJS",
@@ -236,7 +263,7 @@ const projetsData = [
       "Site vitrine d'un artisan spécialisé dans le design et l'architecture des espaces intérieurs pour les professionnels et particuliers.",
   },
   {
-    id: 9,
+    id: 10,
     name: "devpro",
     title: "Agence de Developpement Web",
     technologie: " CMS Wordpress",
@@ -257,7 +284,7 @@ const projetsData = [
     description: " Site Web d'une agence spécialisé dans le développement Web",
   },
   {
-    id: 10,
+    id: 11,
     name: "e-commerce",
     title: "Site de e-Commerce",
     technologie: "Aucun",
@@ -282,30 +309,7 @@ const projetsData = [
     description: " C'est un site complet e-commerce .",
   },
 
-  {
-    id: 11,
-    name: "facture",
-    title: "Application pour Générer un Facture",
-    technologie: "Aucun",
-    langage: [
-      {
-        langId: 1,
-        name: "JavaScript",
-      },
-      {
-        langId: 2,
-        name: "HTML",
-      },
-      {
-        langId: 3,
-        name: "CSS",
-      },
-    ],
-
-    image_1: "/Media/projets/javascript/CRUD-facturee-js.png",
-    lien: "https://github.com/diskala/correction-portfolio-termin--et-fini.git",
-    description: "Une Application pour établir les Factures des clients ",
-  },
+  
 ];
 
 export default projetsData;
