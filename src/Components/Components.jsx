@@ -15,6 +15,12 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const telechargerCV = () => {
+    const pdfUrl = `${process.env.PUBLIC_URL}/Media/CV-reconversion.pdf`;
+    // const pdfUrl = 'public/Media/CV-reconversion.pdf';
+    window.open(pdfUrl, "_blank");
+  }
+
   // const linkedinUrl = 'https://www.linkedin.com/in/seghir-ouali-nacime/';
   //  function pour ouvrir le lien Linkedin
   const lienLindekin = () => {
@@ -67,7 +73,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         <div className="menuBergeer-nav">
           <i className="fa-solid fa-bars" onClick={handleToggleMenu} style={{ cursor: 'pointer' }}></i>
 
-          <div className={`nav ${isMenuOpen ? "open" : ""}`}>
+          <div className={`nav ${isMenuOpen ? "open" : ""}`} >
             <div className="item_nav">
               <Link to="/" class="menu">
                 <i class="fa-solid fa-house"></i>
@@ -89,6 +95,11 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               <span class="menu">
                 Contact
               </span>
+            </div>
+            <div className="item_nav" onClick={ telechargerCV }>
+              <button class="menu_cv">
+                Télécharger CV
+              </button>
             </div>
           </div>
         </div>
