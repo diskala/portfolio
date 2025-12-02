@@ -507,22 +507,33 @@ hr:hover {
 @media screen and (max-width: 360px) {
     main {
         height: auto;
-        max-width: 100%;
+        width: 100%;
     }
 
     .image_font {
 
-        height: 100vh;
+        height: auto;
         width: 100%;
+        
     }
 
     .image_font .nom {
-        font-size: 1.4rem;
+        font-size: 8px;
+    }
+     .nom_photo {
+         display: flex;
+         flex-direction: row;
+        gap: 0.5rem;
+        top: 10%;
+        padding: 0 1rem;
+
     }
 
+
     .photo {
-        width: 100px;
-        height: 100px;
+        width: 3rem;
+        height: 3rem;
+        border: 1px solid var(--accent);
     }
 
     .qualite-item {
@@ -550,7 +561,7 @@ hr:hover {
         width: 100%;
         padding: 0 1rem;
         top: 47.5%;
-        left: 65%;
+        left: 70%;
     }
 
     .presentation {
@@ -567,4 +578,8 @@ hr:hover {
         width: 100%;
 
     }
+    .image_font .fleche {
+    visibility: hidden;
+}
+
 }
