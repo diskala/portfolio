@@ -25,6 +25,7 @@ const projetsData = [
         langId: 5,
         name: "TWIG",
       },
+       
     ],
     image_1: "/Media/projets/cars/projet-discars-1.png",
     image_2: "/Media/projets/cars/discars-2.png",
@@ -37,7 +38,7 @@ const projetsData = [
     id: 2,
     name: "Eco-Partage",
     title: "Plateforme de Mise en Relation de Services",
-    technologie: " Symfony, ReactJS, API Platform et Docker",
+    technologie: " Symfony, ReactJS, API Platform et Mercure",
     langage: [
       {
         langId: 1,
@@ -124,10 +125,11 @@ const projetsData = [
   },
   {
     id: 5,
-    name: "country",
+    name: "Demon Slayer Quiz ",
     title: "Recherche Les Pays Par Mot Clés",
     technologie: "ReactJS et NodeJs",
     langage: [
+
       {
         langId: 1,
         name: "JavaScript",
@@ -141,79 +143,80 @@ const projetsData = [
         name: "CSS",
       },
     ],
-    image_1: "/Media/projets/search/recherche pays-1.png",
+    image_1: "/Media/projets/demon-slayer/demonSlayer.png",
     lien: "https://github.com/diskala/search.git",
     description:
-      "Application de recherche des pays du monde entier par mot clés ",
+      "Plongez dans l'univers envoûtant de Demon Slayer 🌸 Votre guide ultime à travers le monde des Pourfendeurs de Démons ⚔️ Découvrez les secrets des Hashiras et maîtrisez les Styles de Respiration 💨"   
+
   },
+  // {
+  //   id: 6,
+  //   name: "biblioapp",
+  //   title: "Application Pour La Gestion d'une Bibliothèque",
+  //   technologie: " Framework SYMFONY 6",
+  //   langage: [
+  //     {
+  //       langId: 1,
+  //       name: "JavaScript",
+  //     },
+  //     {
+  //       langId: 2,
+  //       name: "HTML",
+  //     },
+  //     {
+  //       langId: 3,
+  //       name: "CSS",
+  //     },
+  //     {
+  //       langId: 4,
+  //       name: "PHP",
+  //     },
+  //     {
+  //       langId: 5,
+  //       name: "TWIG",
+  //     },
+  //   ],
+  //   image_1: "/Media/projets/bibliotheque/gestion-bibliothèque-2.png",
+  //   image_2: "/Media/projets/bibliotheque/gestion-bibliothèque3.png",
+  //   image_3: "/Media/projets/bibliotheque/gestion-bibliothèque-5.png",
+  //   lien: "https://github.com/diskala/biblioapp.git",
+  //   description:
+  //     " C'est une application de gestion une bibliothèque, va vous permet de répertorier vos livres par (Titre, auteur et nemuro de livre) et de pouvoir effectuer une recherche rapide...",
+  // },
+  // {
+  //   id: 7,
+  //   name: "codexpress",
+  //   title: "Messagerie Instantanée",
+  //   technologie: "Framework Symfony 6",
+  //   langage: [
+  //     {
+  //       langId: 1,
+  //       name: "JavaScript",
+  //     },
+  //     {
+  //       langId: 2,
+  //       name: "HTML",
+  //     },
+  //     {
+  //       langId: 3,
+  //       name: "CSS",
+  //     },
+  //     {
+  //       langId: 4,
+  //       name: "PHP",
+  //     },
+  //     {
+  //       langId: 5,
+  //       name: "TWIG",
+  //     },
+  //   ],
+  //   image_1: "/Media/projets/codexpress/codexpress-2.png",
+  //   image_2: "/Media/projets/codexpress/codexpress-1.png",
+  //   lien: "https://github.com/diskala/codexpress-master.git",
+  //   description: "CodeXpress c'est une application de messagerie instantanée.",
+  // },
   {
     id: 6,
-    name: "biblioapp",
-    title: "Application Pour La Gestion d'une Bibliothèque",
-    technologie: " Framework SYMFONY 6",
-    langage: [
-      {
-        langId: 1,
-        name: "JavaScript",
-      },
-      {
-        langId: 2,
-        name: "HTML",
-      },
-      {
-        langId: 3,
-        name: "CSS",
-      },
-      {
-        langId: 4,
-        name: "PHP",
-      },
-      {
-        langId: 5,
-        name: "TWIG",
-      },
-    ],
-    image_1: "/Media/projets/bibliotheque/gestion-bibliothèque-2.png",
-    image_2: "/Media/projets/bibliotheque/gestion-bibliothèque3.png",
-    image_3: "/Media/projets/bibliotheque/gestion-bibliothèque-5.png",
-    lien: "https://github.com/diskala/biblioapp.git",
-    description:
-      " C'est une application de gestion une bibliothèque, va vous permet de répertorier vos livres par (Titre, auteur et nemuro de livre) et de pouvoir effectuer une recherche rapide...",
-  },
-  {
-    id: 7,
-    name: "codexpress",
-    title: "Messagerie Instantanée",
-    technologie: "Framework Symfony 6",
-    langage: [
-      {
-        langId: 1,
-        name: "JavaScript",
-      },
-      {
-        langId: 2,
-        name: "HTML",
-      },
-      {
-        langId: 3,
-        name: "CSS",
-      },
-      {
-        langId: 4,
-        name: "PHP",
-      },
-      {
-        langId: 5,
-        name: "TWIG",
-      },
-    ],
-    image_1: "/Media/projets/codexpress/codexpress-2.png",
-    image_2: "/Media/projets/codexpress/codexpress-1.png",
-    lien: "https://github.com/diskala/codexpress-master.git",
-    description: "CodeXpress c'est une application de messagerie instantanée.",
-  },
-  {
-    id: 8,
     name: "casa",
     title: "Site de Location d'Appartement",
     technologie: "ReactJS et NodeJs",
@@ -238,7 +241,7 @@ const projetsData = [
       "Casa c'est un site de Location d'appartements dans toute la France.",
   },
   {
-    id: 9,
+    id: 7,
     name: "designer",
     title: "Site Vitrine d'Agence de designe Interieur",
     technologie: "ReactJS",
@@ -263,7 +266,7 @@ const projetsData = [
       "Site vitrine d'un artisan spécialisé dans le design et l'architecture des espaces intérieurs pour les professionnels et particuliers.",
   },
   {
-    id: 10,
+    id: 8,
     name: "devpro",
     title: "Agence de Developpement Web",
     technologie: " CMS Wordpress",

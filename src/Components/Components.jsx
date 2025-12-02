@@ -1,9 +1,13 @@
-import React from "react";
-import { useState } from "react";
+import { useState } from 'react';
 import "./Components.css";
 import { Link } from "react-router-dom";
+ 
+
+
+
 export default function Components() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+const [isMenuOpen, setIsMenuOpen] = useState(false);
+ 
 
   // function pour le menu burgger
   const handleToggleMenu = () => {
@@ -29,10 +33,19 @@ export default function Components() {
     window.location.href = mailtoUrl;
   };
 
+  // function scroll section
+  const scrollToSection = (sectionId) => {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+    setIsMenuOpen(false); // ferme le menu burger
+  }
+};
+
   return (
     <>
       <header>
-        <i className="fa-solid fa-bars" onClick={handleToggleMenu}></i>
+        {/* <i className="fa-solid fa-bars" onClick={handleToggleMenu} style={{ cursor: 'pointer' }}></i> */}
 
         <div class="mail_tel_reseau">
           <span className="phone">
@@ -42,7 +55,7 @@ export default function Components() {
           <span className="mails" onClick={handleEmailClick}>
             {" "}
             <i class="fa-solid fa-envelope" ></i>{" "}
-            seghir.nacime@protonmail.com
+            seghirouali.nacime@gmail.com
           </span>
           <div className="reseaux">
             {/* <a href={linkedinUrl} target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" ></i></a> */}
@@ -51,28 +64,32 @@ export default function Components() {
             <i class="fa-brands fa-facebook"></i>
           </div>
         </div>
+        <div className="menuBergeer-nav">
+          <i className="fa-solid fa-bars" onClick={handleToggleMenu} style={{ cursor: 'pointer' }}></i>
 
-        <div className={`nav ${isMenuOpen ? "open" : ""}`}>
-          <div className="item_nav">
-            <Link to="/" class="menu">
-              <i class="fa-solid fa-house"></i>
-            </Link>{" "}
-          </div>
-          <div className="item_nav">
-            {" "}
-            <Link to="/competences" class="menu">
-              Compétences
-            </Link>{" "}
-          </div>
-          <div className="item_nav">
-            <Link to="/portfolio" class="menu">
-              Portfolio
-            </Link>{" "}
-          </div>
-          <div className="item_nav">
-            <Link to="/contact" class="menu">
-              Contact
-            </Link>
+          <div className={`nav ${isMenuOpen ? "open" : ""}`}>
+            <div className="item_nav">
+              <Link to="/" class="menu">
+                <i class="fa-solid fa-house"></i>
+              </Link>{" "}
+            </div>
+            <div className="item_nav" onClick={()=>scrollToSection("competencesId")}>
+              {" "}
+              <span class="menu">
+                Compétences
+              </span> 
+               {" "}
+            </div>
+            <div className="item_nav" onClick={()=>scrollToSection("portfolioId")}>
+              <span class="menu">
+                Portfolio
+              </span>{" "}
+            </div>
+            <div className="item_nav" onClick={()=>scrollToSection("contactId")}>
+              <span class="menu">
+                Contact
+              </span>
+            </div>
           </div>
         </div>
       </header>

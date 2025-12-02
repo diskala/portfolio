@@ -10,20 +10,13 @@ const competencesData = [
       },
       {
         id: 2,
-        name: "HTML",
-        type: "Language de Balisage",
-        image: "/Media/logoLanguages/html5-mini-logo.jpg",
-        niveau: 90,
+        name: "TypeScript",
+        type: "Language de Programation",
+        image: "/Media/logoLanguages/Typescript_logo_2020.svg.png",
+        niveau: 80,
       },
       {
         id: 3,
-        name: "CSS",
-        type: "Language de Programmation",
-        image: "/Media/logoLanguages/css-logo1.png",
-        niveau: 85,
-      },
-      {
-        id: 4,
         name: "PHP",
         type: "Language de Programation",
         image: "/Media/logoLanguages/PHP-logo1.png",
@@ -31,17 +24,32 @@ const competencesData = [
       },
 
       {
+        id: 4,
+        name: "HTML",
+        type: "Language de Balisage",
+        image: "/Media/logoLanguages/html5-mini-logo.jpg",
+        niveau: 90,
+      },
+      {
         id: 5,
-        name: "SQL",
+        name: "CSS",
         type: "Language de Programmation",
-        image: "/Media/logoLanguages/sql2.png",
+        image: "/Media/logoLanguages/css-logo1.png",
         niveau: 85,
       },
+      
+      
     ],
 
     database: [
+       {id: 1,
+        name: "SQL",
+        type: "Gestion Base de données",
+        image: "/Media/logoLanguages/sql2.png",
+        niveau: 85,
+      },
       {
-        id: 1,
+        id: 2,
         name: "MYSQL",
         type: "Gestion Base de données",
         image: "/Media/logoLanguages/mysql2.png",
@@ -49,14 +57,14 @@ const competencesData = [
       },
 
       {
-        id: 2,
+        id: 3,
         name: "MongoDB",
         type: "Gestion Base de données",
         image: "/Media/logoLanguages/mongodb2.png",
-        niveau: 75,
+        niveau: 80,
       },
       {
-        id: 3,
+        id: 4,
         name: "PostgreSQL",
         type: "Gestion Base de données",
         image: "/Media/logoLanguages/postgres2.png",
@@ -89,6 +97,24 @@ const competencesData = [
         image: "/Media/logoLanguages/WordPress_logo3.png",
         niveau: 65,
       },
+       {
+        name: "POSTMAN",
+        type: "Outil de test d'APIs",
+        image: "/Media/logoLanguages/postman.png",
+        niveau: 65,
+      },
+       {
+        name: "GitHub",
+        type: "Plateforme de développement collaboratif",
+        image: "/Media/logoLanguages/github.png",
+        niveau: 65,
+      },
+       {
+        name: "Heroku",
+        type: "Plateforme de déploiement d'applications",
+        image: "/Media/logoLanguages/heroku.png",
+        niveau: 65,
+      },
     ],
 
     graphique: [
@@ -105,6 +131,11 @@ const competencesData = [
       {
         name: "Adobe XD",
         image: "/Media/logoLanguages/adobeXD1.png",
+        niveau: 60,
+      },
+       {
+        name: "FIGMA",
+        image: "/Media/logoLanguages/figma.png",
         niveau: 60,
       },
     ],
