@@ -144,7 +144,7 @@ const projetsData = [
       },
     ],
     image_1: "/Media/projets/demon-slayer/demonSlayer.png",
-    lien: "https://github.com/diskala/search.git",
+    lien: "https://github.com/diskala/demonSlayer.git",
     description:
       "Plongez dans l'univers envoûtant de Demon Slayer 🌸 Votre guide ultime à travers le monde des Pourfendeurs de Démons ⚔️ Découvrez les secrets des Hashiras et maîtrisez les Styles de Respiration 💨"   
 
