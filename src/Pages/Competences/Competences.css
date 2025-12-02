@@ -356,7 +356,7 @@
   }
   
   .additional-section {
-    padding: 2rem;
+    padding: 0.5rem;
   }
   
   .competence-info {
@@ -391,7 +391,7 @@
   }
   
   .additional-section {
-    padding: 1.5rem;
+    padding: 0.5rem;
   }
   .additional-grid {
     grid-template-columns: 1fr;
