@@ -377,7 +377,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
   .container {
     padding: 0 1rem;
   }
@@ -392,6 +392,10 @@
   
   .additional-section {
     padding: 1.5rem;
+  }
+  .additional-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
   
   .competence-icon {
