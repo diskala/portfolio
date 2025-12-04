@@ -15,7 +15,7 @@ export default function Homes() {
   }
 
   const ouvrirPDF = () => {
-    const pdfUrl = `${process.env.PUBLIC_URL}/Media/CV-reconversion.pdf`;
+    const pdfUrl = `${process.env.PUBLIC_URL}/Media/CV-reconversion-Nacime.pdf`;
     // const pdfUrl = 'public/Media/CV-reconversion.pdf';
     window.open(pdfUrl, "_blank");
   };
