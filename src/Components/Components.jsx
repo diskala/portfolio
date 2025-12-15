@@ -26,6 +26,10 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
   const lienLindekin = () => {
     window.open("https://www.linkedin.com/in/seghir-ouali-nacime/", "_blank");
   };
+  // function pour ouvrir le lien GitHub
+  const lienGitHub = () => {
+    window.open("https://github.com/diskala?tab=repositories", "_blank");
+  };
   const handleEmailClick = () => {
     const email = "destinataire@example.com";
     const subject = "Sujet du courriel";
@@ -67,7 +71,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
             {/* <a href={linkedinUrl} target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" ></i></a> */}
             <i class="fa-brands fa-linkedin" onClick={lienLindekin}></i>
             <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github" onClick={lienGitHub}></i>
           </div>
         </div>
         <div className="menuBergeer-nav">

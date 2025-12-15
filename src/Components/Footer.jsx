@@ -14,7 +14,7 @@ export default function Footer() {
     {
       name: "GitHub",
       icon: "fa-github",
-      url: "https://github.com",
+      url: "https://github.com/diskala?tab=repositories",
       color: "#333333"
     },
     {
