@@ -81,7 +81,7 @@ export default function Homes() {
           <hr />
           <p>
             {" "}
-            Je recherche activement un poste de Développeur Full Stackoù je pourrai contribuer
+            Je recherche activement un poste de Développeur Full Stack où je pourrai contribuer
             à des projets stimulants et continuer à progresser.
           </p>
         </div>
