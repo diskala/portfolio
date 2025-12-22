@@ -15,7 +15,7 @@ export default function Homes() {
   }
 
   const ouvrirPDF = () => {
-    const pdfUrl = `${process.env.PUBLIC_URL}/Media/CV-reconversion-Nacime3.pdf`;
+    const pdfUrl = `${process.env.PUBLIC_URL}/Media/CV-actualisé-12-2025.pdf`;
     // const pdfUrl = 'public/Media/CV-reconversion.pdf';
     window.open(pdfUrl, "_blank");
   };
