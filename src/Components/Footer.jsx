@@ -171,7 +171,7 @@ export default function Footer() {
             <div className="newsletter">
               <p className="newsletter-text">Restez informé de mes projets</p>
               <a 
-                href="https://linkedin.com/in/seghir-ouali-nacime" 
+                href="https://www.linkedin.com/in/seghir-ouali-nacime/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="newsletter-btn"
