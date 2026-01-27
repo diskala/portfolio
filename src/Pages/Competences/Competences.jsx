@@ -119,7 +119,7 @@ const Competences = () => {
         <div className="competences-grid">
           <div className="main-competences">
             <CompetenceCategory 
-              title="Langages & Frameworks" 
+              title="Langages de Programmation" 
               items={listCompetences.languages}
               category="lang"
               icon="code"
