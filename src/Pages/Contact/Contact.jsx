@@ -95,7 +95,7 @@ export default function Contact() {
     {
       icon: "fa-envelope",
       title: "Email principal",
-      content: "discarsluxe@gmail.com",
+      content: "seghirouali.nacime@gmail.com",
       action: () => {
         const mailto = "mailto:discarsluxe@gmail.com";
         const link = document.createElement('a');
