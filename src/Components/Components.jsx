@@ -16,7 +16,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
   };
 
   const telechargerCV = () => {
-    const pdfUrl = `${process.env.PUBLIC_URL}/Media/CV-Nacime-Dev.pdf`;
+    const pdfUrl = `${process.env.PUBLIC_URL}/Media/CV-dev-Nacime.pdf`;
     // const pdfUrl = 'public/Media/CV-reconversion.pdf';
     window.open(pdfUrl, "_blank");
   }
